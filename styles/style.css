@@ -49,7 +49,6 @@ h1 {
 .panel {
   background: rgb(250, 250, 250);
   padding: 1em;
-  width: 100%;
   margin: auto;
   max-width: 30em;
 }
@@ -70,4 +69,15 @@ input::after {
   width: 100%;
   height: 10px;
   background: red;
+}
+
+#contact-list {
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #999;
+}
+
+table th tr td {
+  border-collapse: collapse;
 }

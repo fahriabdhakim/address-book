@@ -11,47 +11,51 @@
 </head>
 
 <body>
-  <title>ADDRESS BOOK</title>
+  <h1>ADDRESS BOOK</h1>
 
-  <div id="nav-bar">
+  <!-- <div id="nav-bar">
     <ul class="nav-list">
       <li class="nav-bar"><a href="">Home</a></li>
-      <li class="nav-show-all"><a href="">Show All Contacts</a></li>
+      <li class="nav-show-all"><a href="">Show all Contacts</a></li>
       <li class="nav-add-new"><a href="">Add New Contact</a></li>
       <li class="nav-search"><a href="">Search</a></li>
     </ul>
-  </div>
+  </div> -->
 
-  <div id="search-panel" class="panel">
-    <h1>Search Contacts</h1>
-    <form class="search" action="#" method="post">
-      <div class="result">
-
-      </div>
-      <div>
-        <label>
-          <input type="text" name="Search" placeholder="Enter name of contact">
-        </label>
-      </div>
-      <input type="submit" name="" value="submit" />
-    </form>
-  </div>
   <div id="contact-panel" class="panel">
-    <h1>Add A New Contact</h1>
+    <!-- <h1>Add A New Contact</h1> -->
     <div>
       <form class="contact" action="#" method="post">
         <label>
-            <input type="text" name="name" placeholder="Wahidin">
+            <input id="input-name" type="text" name="name" placeholder="Wahidin">
           </label>
         <label>
-            <input type="text" name="phone" placeholder="123456">
+            <input id="input-phone" type="text" name="phone" placeholder="123456">
           </label>
         <label>
-            <input type="text" name="Address" placeholder="Jakarta">
+            <input id="input-address" type="text" name="Address" placeholder="Jakarta">
             <div>
-              <input type="submit" name="" value="submit"/>
+              <input id="submit" type="button" name="" value="submit"/>
             </div>
-          </label>
+            <div class="result">
+              <table id="contact-list">
+                <thead>
+                  <tr>
+                    <td>Name</td>
+                    <td>Phone</td>
+                    <td>Address</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Jennifer</td>
+                    <td>021 7802020202</td>
+                    <td>New York</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </label>
       </form>
     </div>
 
@@ -60,7 +64,7 @@
 
 
 
-
+  <script src="./jquery-3.2.1.min.js" charset="utf-8"></script>
   <script src="./app.js" charset="utf-8"></script>
 </body>
 
