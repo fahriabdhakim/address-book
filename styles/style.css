@@ -1,17 +1,32 @@
 body {
-  background: #B2FEFA;
+  font-family: sans-serif;
+  background: #8e9eab;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0ED2F7, #B2FEFA);
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .nav-list {
+  padding: inherit;
   width: 92.5%;
   max-width: 30em;
   text-align: center;
   margin: auto;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 li {
