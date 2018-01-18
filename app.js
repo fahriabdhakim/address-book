@@ -9,6 +9,7 @@ var name
 var phone
 var address
 
+
 function addContact() {
   var getname = inputName.value
   var getphone = inputPhone.value
